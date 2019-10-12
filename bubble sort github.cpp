@@ -1,13 +1,15 @@
 #include<iostream>
 using namespace std;
 int main()
-{
+{   /*declare an array of size 10*/
     int arr[10];
     cout<<"Enter the elemens "<<endl;
+    /*taking input from user*/
     for(int i=0;i<10;i++)
     {
         cin>>arr[i];
     }
+   /*printing number entered by the user*/
     for(int i=0;i<10;i++)
     {
         cout<<arr[i]<<"\t";
@@ -38,6 +40,7 @@ int main()
 
 
     }
+    /*we have initialised the f=0 in upper part here f==0 "is because if f will not change means element is not found*/
     if(f==0)
     {
         cout<<"element is not found"<<endl;
